@@ -16,46 +16,16 @@
         "monitoring_type": 0,
         "muted": true,
         "name": "Mic/Aux",
-        "prev_ver": 436207616,
-        "private_settings": {},
-        "push-to-mute": false,
-        "push-to-mute-delay": 0,
-        "push-to-talk": false,
-        "push-to-talk-delay": 0,
-        "settings": {
-            "device_id": "{0.0.1.00000000}.{f35f272e-7b4c-4ca0-9e54-439f5eb07d1d}"
-        },
-        "sync": 0,
-        "versioned_id": "wasapi_input_capture",
-        "volume": 1.0
-    },
-    "AuxAudioDevice2": {
-        "balance": 0.5,
-        "deinterlace_field_order": 0,
-        "deinterlace_mode": 0,
-        "enabled": true,
-        "flags": 0,
-        "hotkeys": {
-            "libobs.mute": [],
-            "libobs.push-to-mute": [],
-            "libobs.push-to-talk": [],
-            "libobs.unmute": []
-        },
-        "id": "wasapi_input_capture",
-        "mixers": 255,
-        "monitoring_type": 0,
-        "muted": true,
-        "name": "Mic/Aux 2",
-        "prev_ver": 436207616,
+        "prev_ver": 436273153,
         "private_settings": {
-            "mixer_hidden": false
+            "mixer_hidden": true
         },
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
         "push-to-talk-delay": 0,
         "settings": {
-            "device_id": "{0.0.1.00000000}.{8f0a4e06-6c75-4981-b9d6-72f3369b54c9}"
+            "device_id": "{0.0.1.00000000}.{071c7386-f26e-409e-9a84-36c908469178}"
         },
         "sync": 0,
         "versioned_id": "wasapi_input_capture",
@@ -78,7 +48,7 @@
         "monitoring_type": 0,
         "muted": true,
         "name": "Desktop Audio",
-        "prev_ver": 436207616,
+        "prev_ver": 436273153,
         "private_settings": {
             "mixer_hidden": false
         },
@@ -87,11 +57,11 @@
         "push-to-talk": false,
         "push-to-talk-delay": 0,
         "settings": {
-            "device_id": "{0.0.0.00000000}.{c7cf4858-e281-45e8-aa2a-59d0783d6e6b}"
+            "device_id": "{0.0.0.00000000}.{c982a5bc-4390-4458-a550-7026e36edb2c}"
         },
         "sync": 0,
         "versioned_id": "wasapi_output_capture",
-        "volume": 1.0
+        "volume": 0.17549648880958557
     },
     "DesktopAudioDevice2": {
         "balance": 0.5,
@@ -110,7 +80,7 @@
         "monitoring_type": 0,
         "muted": true,
         "name": "Desktop Audio 2",
-        "prev_ver": 436207616,
+        "prev_ver": 436273153,
         "private_settings": {
             "mixer_hidden": false
         },
@@ -119,13 +89,13 @@
         "push-to-talk": false,
         "push-to-talk-delay": 0,
         "settings": {
-            "device_id": "{0.0.0.00000000}.{fb8233ae-f3b6-4f21-a097-62d8f40f8916}"
+            "device_id": "{0.0.0.00000000}.{a2aee94a-f62d-4891-a95d-8838d61ed12a}"
         },
         "sync": 0,
         "versioned_id": "wasapi_output_capture",
-        "volume": 1.0
+        "volume": 0.92037087678909302
     },
-    "current_program_scene": "Pre-Game",
+    "current_program_scene": "Countdown",
     "current_scene": "Countdown",
     "current_transition": "Fade",
     "groups": [
@@ -146,7 +116,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Pre-Game Matchup",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -154,18 +124,18 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": true,
-                "cx": 1920,
-                "cy": 1080,
+                "cx": 2572,
+                "cy": 1434,
                 "id_counter": 0,
                 "items": [
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1920.0,
+                            "y": 1080.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -188,13 +158,13 @@
                         "visible": true
                     },
                     {
-                        "align": 0,
+                        "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1920.0,
+                            "y": 1080.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -210,8 +180,8 @@
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": -0.0,
-                            "y": -0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -239,7 +209,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Pre-Game Stats",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -332,7 +302,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Pre-Game Versus",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -351,7 +321,7 @@
                             "y": 1080.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 2,
+                        "bounds_type": 1,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -415,9 +385,9 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "libobs.hide_scene_item.Blue Team - Game1": [],
+                "libobs.hide_scene_item.Blue Team - Game 1": [],
                 "libobs.hide_scene_item.Orange Team - Game 1": [],
-                "libobs.show_scene_item.Blue Team - Game1": [],
+                "libobs.show_scene_item.Blue Team - Game 1": [],
                 "libobs.show_scene_item.Orange Team - Game 1": []
             },
             "id": "group",
@@ -425,7 +395,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "----- Teams - Game 1 -----",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -433,15 +403,15 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": true,
-                "cx": 1007,
-                "cy": 55,
+                "cx": 811,
+                "cy": 54,
                 "id_counter": 0,
                 "items": [
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -450,18 +420,18 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 17,
+                        "id": 32,
                         "locked": true,
                         "name": "Orange Team - Game 1",
                         "pos": {
-                            "x": 670.0,
+                            "x": 677.0,
                             "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.76399999856948853,
-                            "y": 0.7638888955116272
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -469,8 +439,8 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -480,17 +450,17 @@
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 23,
-                        "locked": false,
-                        "name": "Blue Team - Game1",
+                        "locked": true,
+                        "name": "Blue Team - Game 1",
                         "pos": {
                             "x": 0.0,
-                            "y": 3.0
+                            "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.72336769104003906,
-                            "y": 0.72222220897674561
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -524,7 +494,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Team Boxes",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -563,7 +533,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -694,99 +664,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "libobs.hide_scene_item.Blue Team - Game 2": [],
-                "libobs.hide_scene_item.Orange Team - Game2": [],
-                "libobs.show_scene_item.Blue Team - Game 2": [],
-                "libobs.show_scene_item.Orange Team - Game2": []
-            },
-            "id": "group",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "----- Teams - Game 2 -----",
-            "prev_ver": 436207616,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": true,
-                "cx": 736,
-                "cy": 65,
-                "id_counter": 0,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 27,
-                        "locked": true,
-                        "name": "Orange Team - Game2",
-                        "pos": {
-                            "x": 585.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.90748900175094604,
-                            "y": 0.90277779102325439
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 26,
-                        "locked": true,
-                        "name": "Blue Team - Game 2",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 3.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.80000001192092896,
-                            "y": 0.80555558204650879
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "group",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
                 "libobs.hide_scene_item.Blue Score 1": [],
                 "libobs.hide_scene_item.Blue Score 2": [],
                 "libobs.hide_scene_item.Blue Score 3": [],
@@ -809,7 +686,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Pegs",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -877,7 +754,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -906,7 +783,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -935,7 +812,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -964,7 +841,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -993,7 +870,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1022,7 +899,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1051,7 +928,100 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "group",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.hide_scene_item.Blue Team - Game 2": [],
+                "libobs.hide_scene_item.Orange Team - Game 2": [],
+                "libobs.show_scene_item.Blue Team - Game 2": [],
+                "libobs.show_scene_item.Orange Team - Game 2": []
+            },
+            "id": "group",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "----- Teams - Game 2 -----",
+            "prev_ver": 436273153,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": true,
+                "cx": 878,
+                "cy": 54,
+                "id_counter": 2,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 40,
+                        "locked": true,
+                        "name": "Orange Team - Game 2",
+                        "pos": {
+                            "x": 640.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 41,
+                        "locked": true,
+                        "name": "Blue Team - Game 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
                     }
                 ]
             },
@@ -1072,6 +1042,9 @@
             "enabled": false,
             "lang_id": 2057,
             "provider": "mssapi",
+            "source": ""
+        },
+        "decklink_captions": {
             "source": ""
         },
         "output-timer": {
@@ -1112,6 +1085,18 @@
         },
         {
             "name": "Game Scene"
+        },
+        {
+            "name": "Outro"
+        },
+        {
+            "name": "------------"
+        },
+        {
+            "name": "Be Right Back"
+        },
+        {
+            "name": "Game Scene (OLD)"
         }
     ],
     "sources": [
@@ -1131,8 +1116,196 @@
             "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
+            "name": "In-Game-Custom",
+            "prev_ver": 436273153,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "height": 1080,
+                "is_local_file": true,
+                "local_file": "D:/Git/rsc-stream/rsc-overlay/index.html",
+                "restart_when_active": true,
+                "width": 1920
+            },
+            "sync": 0,
+            "versioned_id": "browser_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Desktop Output Capture": [],
+                "libobs.hide_scene_item.Headset Output Capture": [],
+                "libobs.hide_scene_item.In-Game-Custom": [],
+                "libobs.hide_scene_item.Rocket League": [],
+                "libobs.show_scene_item.Desktop Output Capture": [],
+                "libobs.show_scene_item.Headset Output Capture": [],
+                "libobs.show_scene_item.In-Game-Custom": [],
+                "libobs.show_scene_item.Rocket League": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Game Scene",
+            "prev_ver": 436273153,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 4,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Desktop Output Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Headset Output Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": true,
+                        "name": "Rocket League",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": true,
+                        "name": "In-Game-Custom",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "browser_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
             "name": "Intro-Dev",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1143,7 +1316,8 @@
                 "height": 1080,
                 "reroute_audio": true,
                 "restart_when_active": true,
-                "url": "https://rsc.webfillet.com/RSCdotNet/Stream/intro-dev.html",
+                "shutdown": false,
+                "url": "https://rscstream.com/intro-dev.html",
                 "width": 1920
             },
             "sync": 0,
@@ -1162,15 +1336,15 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Pre-Game Matchup 1",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/RSC Twitch/rsc-musah/pre-game/matchup1.png",
-                "unload": true
+                "file": "D:/Twitch/RSC Twitch/rsc-musah/pre-game/matchup1.png",
+                "unload": false
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -1188,58 +1362,18 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Pre-Game Matchup 2",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/RSC Twitch/rsc-musah/pre-game/matchup2.png",
-                "unload": true
+                "file": "D:/Twitch/RSC Twitch/rsc-musah/pre-game/matchup2.png",
+                "unload": false
             },
             "sync": 0,
             "versioned_id": "image_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Orange Team - Game 1",
-            "prev_ver": 436207616,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "align": "left",
-                "chatlog": false,
-                "extents": false,
-                "extents_cx": 600,
-                "extents_cy": 75,
-                "extents_wrap": false,
-                "font": {
-                    "face": "Glacial Indifference",
-                    "flags": 1,
-                    "size": 72,
-                    "style": "Bold"
-                },
-                "text": "corruptors",
-                "transform": 1,
-                "valign": "center",
-                "vertical": false
-            },
-            "sync": 0,
-            "versioned_id": "text_gdiplus",
             "volume": 1.0
         },
         {
@@ -1254,7 +1388,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "3 Best Of",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1295,8 +1429,8 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Game Scene",
-            "prev_ver": 436207616,
+            "name": "Game Scene (OLD)",
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1304,7 +1438,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 27,
+                "id_counter": 41,
                 "items": [
                     {
                         "align": 5,
@@ -1420,7 +1554,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1559,7 +1693,7 @@
                             "y": 0.0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         },
                         "rot": 0.0,
                         "scale": {
@@ -1572,8 +1706,8 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -1582,18 +1716,18 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 27,
+                        "id": 40,
                         "locked": true,
-                        "name": "Orange Team - Game2",
+                        "name": "Orange Team - Game 2",
                         "pos": {
-                            "x": 1150.0,
-                            "y": 13.0
+                            "x": 1144.0,
+                            "y": 18.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.90748900175094604,
-                            "y": 0.90277779102325439
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1601,8 +1735,8 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -1611,18 +1745,18 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 26,
+                        "id": 41,
                         "locked": true,
                         "name": "Blue Team - Game 2",
                         "pos": {
-                            "x": 565.0,
-                            "y": 16.0
+                            "x": 504.0,
+                            "y": 18.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.80000001192092896,
-                            "y": 0.80555558204650879
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1640,15 +1774,15 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 7,
+                        "id": 38,
                         "locked": true,
                         "name": "----- Teams - Game 2 -----",
                         "pos": {
-                            "x": 565.0,
-                            "y": 13.0
+                            "x": 504.0,
+                            "y": 18.0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         },
                         "rot": 0.0,
                         "scale": {
@@ -1656,13 +1790,13 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -1671,18 +1805,18 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 17,
+                        "id": 32,
                         "locked": true,
                         "name": "Orange Team - Game 1",
                         "pos": {
-                            "x": 1151.0,
+                            "x": 1144.0,
                             "y": 18.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.76399999856948853,
-                            "y": 0.7638888955116272
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1690,8 +1824,8 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -1701,17 +1835,17 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 23,
-                        "locked": false,
-                        "name": "Blue Team - Game1",
+                        "locked": true,
+                        "name": "Blue Team - Game 1",
                         "pos": {
-                            "x": 481.0,
-                            "y": 21.0
+                            "x": 467.0,
+                            "y": 18.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.72336769104003906,
-                            "y": 0.72222220897674561
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1733,11 +1867,11 @@
                         "locked": true,
                         "name": "----- Teams - Game 1 -----",
                         "pos": {
-                            "x": 481.0,
+                            "x": 467.0,
                             "y": 18.0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         },
                         "rot": 0.0,
                         "scale": {
@@ -1803,7 +1937,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1832,7 +1966,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1861,7 +1995,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1890,7 +2024,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1919,7 +2053,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1948,7 +2082,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1977,7 +2111,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -2000,7 +2134,7 @@
                             "y": 0.0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         },
                         "rot": 0.0,
                         "scale": {
@@ -2028,14 +2162,14 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Pre-Game Versus 2",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/RSC Twitch/rsc-musah/pre-game/stream-vs2.png",
+                "file": "D:/Twitch/RSC Twitch/rsc-musah/pre-game/stream-vs2.png",
                 "unload": true
             },
             "sync": 0,
@@ -2054,15 +2188,15 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "QUICK SWAP",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/cdwat/Desktop/Matchday_1_Schedule.png",
-                "unload": false
+                "file": "D:/RSC Twitch/rsc-musah/pre-game/Challenger_All-Stars.png",
+                "unload": true
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -2080,7 +2214,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "7 Best Of",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -2106,7 +2240,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "5 Best Of",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -2132,14 +2266,14 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Pre-Game Stats 2",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/RSC Twitch/rsc-musah/pre-game/stats2.PNG",
+                "file": "D:/Twitch/RSC Twitch/rsc-musah/pre-game/stats2.PNG",
                 "unload": true
             },
             "sync": 0,
@@ -2158,14 +2292,14 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Pre-Game Stats 1",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/RSC Twitch/rsc-musah/pre-game/stats1.png",
+                "file": "D:/Twitch/RSC Twitch/rsc-musah/pre-game/stats1.png",
                 "unload": true
             },
             "sync": 0,
@@ -2206,7 +2340,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Pre-Game",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -2335,11 +2469,11 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1920.0,
+                            "y": 1080.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 0,
+                        "bounds_type": 1,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -2352,7 +2486,9 @@
                             "x": 0.0,
                             "y": 0.0
                         },
-                        "private_settings": {},
+                        "private_settings": {
+                            "collapsed": false
+                        },
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2368,7 +2504,7 @@
                             "y": 1080.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 2,
+                        "bounds_type": 1,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -2422,11 +2558,11 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1920.0,
+                            "y": 1080.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 0,
+                        "bounds_type": 1,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -2453,11 +2589,11 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1920.0,
+                            "y": 1080.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -2480,13 +2616,13 @@
                         "visible": true
                     },
                     {
-                        "align": 0,
+                        "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1920.0,
+                            "y": 1080.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -2502,8 +2638,8 @@
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": -0.0,
-                            "y": -0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2537,7 +2673,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -2546,7 +2682,7 @@
                             "y": 1080.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 1,
+                        "bounds_type": 2,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -2708,7 +2844,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Limiter",
-                    "prev_ver": 436207616,
+                    "prev_ver": 436273153,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -2732,18 +2868,18 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Desktop Output Capture",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "device_id": "{0.0.0.00000000}.{c7cf4858-e281-45e8-aa2a-59d0783d6e6b}"
+                "device_id": "{0.0.0.00000000}.{c982a5bc-4390-4458-a550-7026e36edb2c}"
             },
             "sync": 0,
             "versioned_id": "wasapi_output_capture",
-            "volume": 0.52872681617736816
+            "volume": 0.55904072523117065
         },
         {
             "balance": 0.5,
@@ -2775,7 +2911,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Countdown",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -2783,7 +2919,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 18,
+                "id_counter": 19,
                 "items": [
                     {
                         "align": 5,
@@ -2857,7 +2993,7 @@
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 18,
-                        "locked": false,
+                        "locked": true,
                         "name": "Intro-Dev",
                         "pos": {
                             "x": 0.0,
@@ -2899,7 +3035,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -2951,7 +3087,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Rocket League",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -2979,14 +3115,14 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "4 Game Series",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/RSC Twitch/rsc-musah/in-game-main/4_Game_Series.png"
+                "file": "D:/Twitch/RSC Twitch/rsc-musah/in-game-main/4_Game_Series.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -3004,7 +3140,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Orange Score 4",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3029,7 +3165,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Orange Score 3",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3054,7 +3190,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Orange Score 2",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3079,7 +3215,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Orange Score 1",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3105,7 +3241,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Blue Score 4",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3130,7 +3266,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Blue Score 3",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3155,7 +3291,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Blue Score 2",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3180,7 +3316,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Blue Score 1",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3210,7 +3346,7 @@
             "monitoring_type": 1,
             "muted": false,
             "name": "Intro",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3223,12 +3359,12 @@
                 "reroute_audio": true,
                 "restart_when_active": true,
                 "shutdown": false,
-                "url": "https://rsc.webfillet.com/RSCdotNet/Stream/intro.html",
+                "url": "https://rscstream.com/intro.html",
                 "width": 1920
             },
             "sync": 0,
             "versioned_id": "browser_source",
-            "volume": 1.0
+            "volume": 0.58424645662307739
         },
         {
             "balance": 0.5,
@@ -3257,20 +3393,20 @@
             "id": "wasapi_output_capture",
             "mixers": 255,
             "monitoring_type": 0,
-            "muted": false,
+            "muted": true,
             "name": "Headset Output Capture",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "device_id": "{0.0.0.00000000}.{3e09371f-3091-4589-9304-215815673923}"
+                "device_id": "{0.0.0.00000000}.{a2aee94a-f62d-4891-a95d-8838d61ed12a}"
             },
             "sync": 0,
             "versioned_id": "wasapi_output_capture",
-            "volume": 0.5907055139541626
+            "volume": 0.93805283308029175
         },
         {
             "balance": 0.5,
@@ -3284,14 +3420,14 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Pre-Game Versus 1",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/RSC Twitch/rsc-musah/pre-game/stream-vs1.png",
+                "file": "D:/Twitch/RSC Twitch/rsc-musah/pre-game/stream-vs1.png",
                 "unload": true
             },
             "sync": 0,
@@ -3310,15 +3446,15 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "QUICK SWAP 2",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/cdwat/Desktop/Matchday_1_Game_1.png",
-                "unload": false
+                "file": "D:/RSC Twitch/rsc-musah/pre-game/Challenger_MVP.png",
+                "unload": true
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -3336,14 +3472,14 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "QUICK SWAP 3",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/cdwat/Desktop/Matchday_1_Game_2.png",
+                "file": "D:/RSC Twitch/rsc-musah/pre-game/Challenger_All-Stars.png",
                 "unload": false
             },
             "sync": 0,
@@ -3362,15 +3498,15 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "QUICK SWAP 4",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/RSC Twitch/rsc-musah/pre-game/S8_-_Major_MVPs.png",
-                "unload": false
+                "file": "D:/RSC Twitch/rsc-musah/pre-game/Challenger_MVP.png",
+                "unload": true
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -3388,15 +3524,15 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Schedule",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/RSC Twitch/rsc-musah/pre-game/schedule.png",
-                "unload": true
+                "file": "D:/Twitch/RSC Twitch/rsc-musah/pre-game/schedule.png",
+                "unload": false
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -3420,7 +3556,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Color Key",
-                    "prev_ver": 436207616,
+                    "prev_ver": 436273153,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -3442,7 +3578,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "3 Game Series",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3467,28 +3603,29 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Blue Team - Game1",
-            "prev_ver": 436207616,
+            "name": "Blue Team - Game 1",
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "align": "right",
+                "align": "left",
+                "antialiasing": true,
                 "extents": false,
-                "extents_cx": 600,
-                "extents_cy": 75,
-                "extents_wrap": false,
+                "extents_cx": 400,
+                "extents_cy": 50,
+                "extents_wrap": true,
                 "font": {
                     "face": "Glacial Indifference",
                     "flags": 1,
-                    "size": 72,
+                    "size": 54,
                     "style": "Bold"
                 },
-                "text": "Andromeda",
+                "text": "smooth mint",
                 "transform": 1,
-                "valign": "center",
+                "valign": "top",
                 "vertical": false
             },
             "sync": 0,
@@ -3512,7 +3649,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Intro-Long",
-            "prev_ver": 436207616,
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3523,12 +3660,12 @@
                 "height": 1080,
                 "reroute_audio": true,
                 "restart_when_active": true,
-                "url": "https://rsc.webfillet.com/RSCdotNet/Stream/intro-long.html",
+                "url": "https://rscstream.com/intro-long.html",
                 "width": 1920
             },
             "sync": 0,
             "versioned_id": "browser_source",
-            "volume": 0.32923749089241028
+            "volume": 0.54187995195388794
         },
         {
             "balance": 0.5,
@@ -3541,8 +3678,8 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Blue Team - Game 2",
-            "prev_ver": 436207616,
+            "name": "Orange Team - Game 1",
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3552,18 +3689,19 @@
                 "align": "left",
                 "chatlog": false,
                 "extents": false,
-                "extents_cx": 600,
-                "extents_cy": 75,
+                "extents_cx": 400,
+                "extents_cy": 50,
                 "extents_wrap": false,
                 "font": {
                     "face": "Glacial Indifference",
                     "flags": 1,
-                    "size": 72,
+                    "size": 54,
                     "style": "Bold"
                 },
-                "text": "jupiter",
+                "outline": false,
+                "text": "earth",
                 "transform": 1,
-                "valign": "center",
+                "valign": "top",
                 "vertical": false
             },
             "sync": 0,
@@ -3581,8 +3719,8 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Orange Team - Game2",
-            "prev_ver": 436207616,
+            "name": "Orange Team - Game 2",
+            "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3592,22 +3730,389 @@
                 "align": "left",
                 "chatlog": false,
                 "extents": false,
-                "extents_cx": 600,
-                "extents_cy": 75,
+                "extents_cx": 400,
+                "extents_cy": 50,
                 "extents_wrap": false,
                 "font": {
                     "face": "Glacial Indifference",
                     "flags": 1,
-                    "size": 72,
+                    "size": 54,
                     "style": "Bold"
                 },
-                "text": "Wind",
+                "outline": false,
+                "text": "threshers",
                 "transform": 1,
-                "valign": "center",
+                "valign": "top",
                 "vertical": false
             },
             "sync": 0,
             "versioned_id": "text_gdiplus",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Blue Team - Game 2",
+            "prev_ver": 436273153,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "left",
+                "antialiasing": true,
+                "extents": false,
+                "extents_cx": 400,
+                "extents_cy": 50,
+                "extents_wrap": true,
+                "font": {
+                    "face": "Glacial Indifference",
+                    "flags": 1,
+                    "size": 54,
+                    "style": "Bold"
+                },
+                "text": "tie fighters",
+                "transform": 1,
+                "valign": "top",
+                "vertical": false
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.BeRightBack": [],
+                "libobs.hide_scene_item.Desktop Output Capture": [],
+                "libobs.hide_scene_item.Headset Output Capture": [],
+                "libobs.show_scene_item.BeRightBack": [],
+                "libobs.show_scene_item.Desktop Output Capture": [],
+                "libobs.show_scene_item.Headset Output Capture": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Be Right Back",
+            "prev_ver": 436273153,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 3,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Desktop Output Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Headset Output Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": true,
+                        "name": "BeRightBack",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "BeRightBack",
+            "prev_ver": 436273153,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "D:/Twitch/RSC Twitch/rsc-musah/pre-game/be-right-back.png",
+                "unload": true
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "------------",
+            "prev_ver": 436273153,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 0,
+                "items": []
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Desktop Output Capture": [],
+                "libobs.hide_scene_item.Headset Output Capture": [],
+                "libobs.hide_scene_item.Outtro": [],
+                "libobs.show_scene_item.Desktop Output Capture": [],
+                "libobs.show_scene_item.Headset Output Capture": [],
+                "libobs.show_scene_item.Outtro": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Outro",
+            "prev_ver": 436273153,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 4,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Desktop Output Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Headset Output Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": true,
+                        "name": "Outtro",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Outtro",
+            "prev_ver": 436273153,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "D:/Twitch/RSC Twitch/rsc-musah/pre-game/outtro.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
             "volume": 1.0
         }
     ],
